@@ -131,6 +131,7 @@ You can also use the base game’s binary saving without this mod:
 
 - Maximum saves: **999**
 - Maximum file size: **16 MB**
+- Maybe already increased by Arma but it was the case when I tested it last time on 1.6
 
 ### Recommendations
 
