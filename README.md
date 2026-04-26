@@ -81,7 +81,7 @@ The important part is the `persistence` section inside `gameProperties`.
 
 ---
 
-### 2. JSON Pretty (Default)
+### 2. JSON Pretty
 **Preset:** `JsonSaveGamePretty.conf`
 
 - Human-readable format
@@ -131,7 +131,7 @@ You can also use the base game’s binary saving without this mod:
 
 - Maximum saves: **999**
 - Maximum file size: **16 MB**
-- Maybe already increased by Arma but it was the case when I tested it last time on 1.6
+- Maybe already increased by Arma but that wasn't the case when I tested it.
 
 ### Recommendations
 
