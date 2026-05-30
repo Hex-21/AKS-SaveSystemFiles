@@ -115,13 +115,13 @@ The important part is the `persistence` section inside `gameProperties`.
 - Defines how often the game saves (in minutes)
 
 ```json
-"saveRetention": <filesNR>,
+"saveRetention": <filesNR>
 ```
 - Defines how many saves are in the save folder at the same time(1 - 128)
   
 ```json
-"loadSessionSave": true,
-"keepSessionSave": true,
+"loadSessionSave": true
+"keepSessionSave": true
 ```
 - Needed to save and load session's
 
