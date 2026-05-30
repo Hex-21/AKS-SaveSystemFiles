@@ -117,7 +117,7 @@ The important part is the `persistence` section inside `gameProperties`.
 ```json
 "saveRetention": <filesNR>,
 ```
-- Defines how many saves are in the save folder at the same time(1 - 128
+- Defines how many saves are in the save folder at the same time(1 - 128)
   
 ```json
 "loadSessionSave": true,
