@@ -19,7 +19,7 @@ You can use the default (vanilla) saving system, but this mod adds additional fo
 ## Configuration Setup
 
 Below is a minimal example of a server config.  
-The important part is the `persistence` section inside `gameProperties`.
+The important part is the `persistence` section inside `game` Properties.
 
 ```json
 {
