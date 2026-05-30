@@ -46,22 +46,20 @@ The important part is the `persistence` section inside `gameProperties`.
                 "m_sDetails": "BSP"
             },
             "persistence": {
-                "autoSaveInterval": 5,
-                "hiveId": 1001,
-                "databases": {
-                    "main": {
-                        "preset": "{A79D2893C8F8F4A9}Configs/Systems/Persistence/Database/BinSaveGame.conf"
-                    }
-                },
-                "storages": {
-                    "session": {
-                        "database": "main"
-                    }
-                }
-            }
-        }
-    }
-}
+				"autoSaveInterval": 1,
+				"saveRetention": 16,
+				"loadSessionSave": true,
+				"keepSessionSave": true,
+				"hiveId": 1001,
+			"databases": {
+				"Main": {
+					"preset": "{68E1601E02CFCF00}Configs/Systems/Persistence/Database/PersistenceJsonSaveGame.conf"
+					}},
+			"storages": {
+			"session": {
+			"database": "Main"
+		}}},
+}}}
 ```
 
 ---
@@ -109,14 +107,6 @@ The important part is the `persistence` section inside `gameProperties`.
 
 ---
 
-### 4. Vanilla Binary (No Mod Required)
-
-You can also use the base game’s binary saving without this mod:
-
-```json
-"preset": "{A79D2893C8F8F4A9}Configs/Systems/Persistence/Database/BinSaveGame.conf"
-```
-
 ---
 
 ## Autosave Settings
@@ -124,24 +114,23 @@ You can also use the base game’s binary saving without this mod:
 ```json
 "autoSaveInterval": <minutes>
 ```
-
 - Defines how often the game saves (in minutes)
+
+```json
+"saveRetention": <filesNR>,
+```
+- Defines how many saves are in the save folder at the same time(1 - 128
+  
+```json
+"loadSessionSave": true,
+"keepSessionSave": true,
+```
+- Needed to save and load session's
 
 ### Important Limits
 
-- Maximum saves: **999**
 - Maximum file size: **16 MB**
 - Maybe already increased by Arma but that wasn't the case when I tested it.
-
-### Recommendations
-
-| Use Case                  | Interval |
-|---------------------------|----------|
-| Long sessions             | 60 min   |
-| Frequent crash protection | 10 min   |
-
-> Example:  
-> With a 10-minute interval, it takes ~7 days to reach 999 saves.
 
 ---
 
@@ -160,7 +149,7 @@ Need help or have questions?
 https://discord.com/invite/akiras-spielwiese
 
 - Ping **Hex**
-- Or send a direct message
+- Or send a DM
 
 ---
 
