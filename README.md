@@ -107,8 +107,6 @@ The important part is the `persistence` section inside `gameProperties`.
 
 ---
 
----
-
 ## Autosave Settings
 
 ```json
