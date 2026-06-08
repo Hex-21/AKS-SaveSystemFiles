@@ -49,7 +49,7 @@ The important part is the `persistence` section inside `game` Properties.
 				"autoSaveInterval": 1,
 				"saveRetention": 16,
 				"loadSessionSave": true,
-				"keepSessionSave": true,
+				"keepSessionSave": false,
 				"hiveId": 1001,
 			"databases": {
 				"Main": {
@@ -121,9 +121,10 @@ The important part is the `persistence` section inside `game` Properties.
   
 ```json
 "loadSessionSave": true
-"keepSessionSave": true
+"keepSessionSave": false
 ```
-- Needed to save and load session's
+- Load Needed to load session's
+- Keep is needed if u want to keep saves sessions from before 
 
 ### Important Limits
 
