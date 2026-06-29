@@ -12,7 +12,7 @@ You can use the default (vanilla) saving system, but this mod adds additional fo
 - Multiple save formats:
   - Compact JSON (one-line)
   - Pretty JSON (human-readable)
-  - Binary (fast & small)
+  - Bin|ary (fast & small)
 
 ---
 
@@ -53,7 +53,7 @@ The important part is the `persistence` section inside `game` Properties.
 				"hiveId": 1001,
 			"databases": {
 				"Main": {
-					"preset": "{68E1601E02CFCF00}Configs/Systems/Persistence/Database/PersistenceJsonSaveGame.conf"
+					"preset": "{68E1601E02CFCF00}Configs/Systems/Persistence/Database/PersistenceBinarySaveGame.conf"
 					}},
 			"storages": {
 			"session": {
@@ -94,7 +94,7 @@ The important part is the `persistence` section inside `game` Properties.
 
 ---
 
-### 3. Binary (Recommended)
+### 3. Bin
 **Preset:** `PersistenceBinSaveGame.conf`
 
 - Fastest and smallest format
@@ -103,6 +103,17 @@ The important part is the `persistence` section inside `game` Properties.
 
 ```json
 "preset": "{68E1601E02CFCF00}Configs/Systems/Persistence/Database/PersistenceBinSaveGame.conf"
+```
+
+### 4. Binry (Recommended)
+**Preset:** `PersistenceBinSaveGame.conf`
+
+- Fastest and smallest format
+- Best for long-running servers
+- Not human-readable
+
+```json
+"preset": "{68E1601E02CFCF00}Configs/Systems/Persistence/Database/PersistenceBinarySaveGame.conf"
 ```
 
 ---
