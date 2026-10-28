@@ -59,7 +59,7 @@ The important part is the `persistence` section inside `gameProperties`.
                 "hiveId": 1001,
                 "databases": {
                     "Main": {
-                        "preset": "{68E1601E02CFCF00}Configs/Systems/Persistence/Database/BinarySaveGame.conf"
+                        "preset": "{05AAAF41FAE4B478}Configs/Systems/Persistence/Database/BinarySaveGame.conf"
                     }
                 },
                 "storages": {
@@ -85,7 +85,7 @@ The important part is the `persistence` section inside `gameProperties`.
 -   Not human-readable
 
 ``` json
-"preset": "{68E1601E02CFCF00}Configs/Systems/Persistence/Database/BinarySaveGame.conf"
+"preset": "{05AAAF41FAE4B478}Configs/Systems/Persistence/Database/BinarySaveGame.conf"
 ```
 
 ## 2. JSON (Compact)
@@ -93,7 +93,7 @@ The important part is the `persistence` section inside `gameProperties`.
 **Preset:** `JsonSaveGame.conf`
 
 ``` json
-"preset": "{68E1601E02CFCF00}Configs/Systems/Persistence/Database/JsonSaveGame.conf"
+"preset": "{F128A4430B15EE51}Configs/Systems/Persistence/Database/JsonSaveGame.conf"
 ```
 
 ## 3. Pretty JSON
@@ -103,21 +103,35 @@ The important part is the `persistence` section inside `gameProperties`.
 > **Warning:** Very large save files
 
 ``` json
-"preset": "{68E1601E02CFCF00}Configs/Systems/Persistence/Database/PrettyJsonSaveGame.conf"
+"preset": "{99C73AE0CB3458E7}Configs/Systems/Persistence/Database/PrettyJsonSaveGame.conf"
 ```
 
-## Legacy Vanilla Formats
+## Legacy Formats
 
 ### Binary (Legacy)
 
 ``` json
-"preset": "{68E1601E02CFCF00}Configs/Systems/Persistence/Database/SCR_BinarySaveGame_OLD.conf"
+"preset": "{D5DE84FAABD47266}Configs/Systems/Persistence/Database/SCR_BinarySaveGame_OLD.conf"
 ```
 
 ### JSON (Legacy)
 
 ``` json
-"preset": "{68E1601E02CFCF00}Configs/Systems/Persistence/Database/SCR_JsonSaveGame_OLD.conf"
+"preset": "{87CCE589CE487E67}Configs/Systems/Persistence/Database/SCR_JsonSaveGame_OLD.conf"
+```
+
+## Vanilla
+
+### Binary (Vanilla)
+
+``` json
+"preset": "{05AAAF41FAE4B478}Configs/Systems/Persistence/Database/BinarySaveGame.conf"
+```
+
+### JSON (Vanilla)
+
+``` json
+"preset": "{F128A4430B15EE50}Configs/Systems/Persistence/Database/JsonSaveGame.conf"
 ```
 
 # Autosave Settings
